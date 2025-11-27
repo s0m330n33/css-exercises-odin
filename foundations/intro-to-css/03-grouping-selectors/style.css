@@ -4,3 +4,10 @@
 font-size: 28px;
 font-family: Helvetica, "Times New Roman", sans-serif;
 }
+.bg-black{
+   background-color: rgb(3, 3, 3);
+   color: hsl(0, 29%, 95%)
+}
+.bg-yellow{
+    background-color: #e5f31b
+}
