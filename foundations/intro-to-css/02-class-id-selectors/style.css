@@ -1,1 +1,16 @@
+.odd-class{
+background-color: #ffa7a7;
+font-family: "Verdana", "DejaVu Sans", "sans-serif";
+}
+#first-even {
+    color: rgb(72, 104, 248);
+    font-size: 36px;
+}
+.font-adjust {
+    font-size: 24px;
+}
+#second-even{
+    background-color: hsl(110, 72%, 56%);
+    font-weight: bold;
+}
 /* Add CSS Styling */
