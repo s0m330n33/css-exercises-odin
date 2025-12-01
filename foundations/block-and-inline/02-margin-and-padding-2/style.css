@@ -13,15 +13,27 @@ body {
   background: #e3f4ff;
 }
 
-.content {
-  background: #e3f4ff;
+.card , 
+.title {
+  font-size: 16px;
 }
 
-.button-container {
+.content {
   background: #e3f4ff;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+}
+
+button , 
+.button-container {
+  display: block;
+  margin: 16px auto;
+  text-align: center;
+}
+
+.button-container {
+  background: #e3f4ff;
 }
