@@ -7,10 +7,13 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 8px;
 }
 
 .card , 
@@ -20,20 +23,29 @@ body {
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
 
-button , 
+
+/* The solution didn't need to have different selectors added, only needed me to change the margin and padding values primarily, and also change the display property. */
+/*   button ,
 .button-container {
   display: block;
   margin: 16px auto;
   text-align: center;
 }
-
+*/
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
